@@ -1,0 +1,12 @@
+requirements_txt_content = """
+streamlit==1.9.0              # The core framework for building the web app.
+streamlit-chat==0.0.3         # Enables chat UI components in Streamlit.
+langchain==0.1.5              # Core library for working with language models and embeddings.
+faiss-cpu==1.7.1              # Efficient similarity search and clustering of dense vectors.
+pymupdf==1.19.3               # Python bindings for MuPDF - a lightweight PDF and XPS viewer.
+openai==0.10.2                # Python client library for OpenAI's GPT models and other APIs.
+tiktoken==0.0.3               # A utility for managing tokens and API keys.
+black==22.3.0                 # The uncompromising code formatter.
+langchain-community==0.1.0    # Community extensions for the LangChain library.
+langchain-openai==0.1.0       # OpenAI extensions for the LangChain library.
+"""
